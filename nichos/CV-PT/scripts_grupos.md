@@ -1,6 +1,7 @@
 # Scripts Grupos - Diaspora Cabo-verdiana
 
 **Paulo Ramos | KW Alfa Carcavelos | AMI 16799**
+**Precos atualizados: Idealista junho 2026 | T2 bom estado: 150-200k | T2 novo: 230-270k**
 
 ---
 
@@ -13,13 +14,15 @@ Tens filho ou filha a estudar na Covilha?
 
 Ja fizeste as contas a quanto pagas de renda por ano?
 
-Um T2 na Covilha custa entre 65.000 e 95.000 euros.
-Em 4 anos de universidade podes pagar 20.000 a 25.000 euros em rendas.
+Um T2 em bom estado na Covilha custa entre 150.000 e 200.000 euros.
+Novo, encontras entre 230.000 e 270.000 euros.
+E o mercado subiu +26% so no ultimo ano.
 
-E se esse dinheiro fosse para um ativo que fica para a tua familia?
+Em 4-5 anos de universidade podes pagar 20.000 a 30.000 euros em rendas.
+Esse dinheiro desaparece. A casa fica - e valoriza.
 
 O teu filho mora la. Os outros quartos dao rentabilidade.
-No fim da universidade, tens uma casa em Portugal.
+No fim da universidade, tens um ativo em crescimento em Portugal.
 
 Sou Paulo Ramos, consultor imobiliario em Carcavelos, com raizes em Cabo Verde.
 Acompanho todo o processo - mesmo a distancia.
@@ -44,6 +47,9 @@ un kaza na Portugal pa volta un dia, ou pa familia.
 N e konsultador imobiliario na Portugal - KW Alfa Carcavelos.
 N ten raizes kaboverdianus tambem, N fla kriol.
 
+Merkad di Kovilha ta subi +26% un anu so. Kaza di T2 ta kusta
+entre 150 y 200 mil euros - multu menus ki Rotterdam.
+
 Si bu ta intresadu sabe kuma e posivel konpra kaza na Portugal
 morand na Holanda - sem stress, N ta splika tudu -
 manda-m mensagem ki N ta responde.
@@ -60,9 +66,12 @@ Abrasu!
 ```
 Ben jij Kaapverdian en droom je van een huis in Portugal?
 
-In Covilha (vlak bij Serra da Estrela) koop je een T2 of T3
-voor 65.000 tot 100.000 euro. Dat is wat je in NL betaalt voor
-2 jaar huur in Rotterdam.
+In Covilha (vlak bij Serra da Estrela) koop je een T2 in goede staat
+voor 150.000 tot 200.000 euro - nieuwbouw tussen 230.000 en 270.000.
+De markt steeg +26% in 12 maanden. Jouw geld groeit mee.
+
+In Rotterdam betaal je dat in 2-3 jaar aan huur.
+In Covilha is het een eigen huis.
 
 Ik ben Paulo Ramos, makelaar bij KW Alfa Carcavelos.
 Ik heb Kaapverdische roots, ik spreek Crioulo, en ik ken
@@ -128,8 +137,8 @@ Ou ta manda dinheru pa Kab Verd mas ka ta kria patrimonio
 na Portugal pa nos familia."
 
 [20-35s SOLUCAO]
-"Kaza na Kovilha ta kusta 70 a 90 mil euros.
-Bu fidju ta mora - kolegas ta paga - bu ta ten rentabilidad.
+"Kaza na Kovilha ta kusta 150 a 200 mil euros - bom estad.
+Bu fidju ta mora - kolegas ta paga - y merkad ta subi +26% un anu.
 N ta djuda bu tud prosesu - mesa longi."
 
 [35-45s CTA]
@@ -146,3 +155,4 @@ N e Paulo Ramos, KW Alfa Carcavelos."
 - Nos grupos, esperar 2-3 dias antes de fazer follow-up
 - Nao fazer mais de 1 post de vendas por semana no mesmo grupo
 - Primeiro post deve ser de apresentacao, nao de venda
+- Precos verificados: Idealista junho 2026 | Mercado +26,4% em 12 meses
