@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Gratuito: Investimento Imobiliário para Diáspora Cabo-verdiana — Ramos Corporate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --navy: #1b2a3b;
+      --gold: #b8962e;
+      --off-white: #f4f1ec;
+      --text-dark: #2c3e50;
+      --text-light: #7f8c8d;
+      --font-title: 'Montserrat', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text-dark); background: var(--off-white); line-height: 1.6; }
+
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, #0f1621 100%);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -10%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(184, 150, 46, 0.1) 0%, transparent 70%);
+      z-index: 0;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; }
+    .brand-badge { display: inline-block; background: rgba(184, 150, 46, 0.15); color: var(--gold); padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; }
+    .hero h1 { font-family: var(--font-title); font-size: clamp(36px, 6vw, 60px); font-weight: 700; margin-bottom: 20px; }
+    .hero p { font-size: 18px; margin-bottom: 30px; color: rgba(255, 255, 255, 0.9); }
+
+    .cta-primary {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 16px 50px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-family: var(--font-title);
+      cursor: pointer;
+      border: none;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    .cta-primary:hover { transform: translateY(-3px); box-shadow: 0 12px 36px rgba(184, 150, 46, 0.3); }
+
+    .section {
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 60px 40px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .section:nth-child(even) { background: var(--off-white); }
+    .section h2 { font-family: var(--font-title); font-size: 32px; font-weight: 700; color: var(--navy); margin-bottom: 24px; }
+    .section p { color: var(--text-light); margin-bottom: 16px; font-size: 16px; line-height: 1.8; }
+
+    .benefits-list {
+      list-style: none;
+      margin-top: 24px;
+    }
+    .benefits-list li {
+      padding: 16px 0;
+      padding-left: 40px;
+      position: relative;
+      border-bottom: 1px solid #e8e6e1;
+      color: var(--text-dark);
+    }
+    .benefits-list li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .form-section {
+      max-width: 700px;
+      margin: 80px auto;
+      padding: 60px 40px;
+      background: linear-gradient(135deg, var(--navy) 0%, rgba(15, 22, 33, 0.9) 100%);
+      border-radius: 12px;
+      color: white;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    }
+    .form-section h2 { color: white; text-align: center; margin-bottom: 30px; }
+    .form-section p { text-align: center; color: rgba(255, 255, 255, 0.9); margin-bottom: 30px; }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    input { padding: 14px 16px; border: 2px solid rgba(184, 150, 46, 0.2); border-radius: 6px; font-family: var(--font-body); font-size: 16px; background: rgba(255, 255, 255, 0.1); color: white; }
+    input::placeholder { color: rgba(255, 255, 255, 0.6); }
+    input:focus { outline: none; border-color: var(--gold); background: rgba(255, 255, 255, 0.15); }
+
+    .form-submit {
+      background: var(--gold);
+      color: var(--navy);
+      padding: 16px;
+      border: none;
+      border-radius: 6px;
+      font-weight: 700;
+      font-family: var(--font-title);
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      margin-top: 16px;
+    }
+    .form-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(184, 150, 46, 0.3); }
+
+    .faq-section {
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 60px 40px;
+      background: white;
+      border-radius: 8px;
+    }
+    .faq-section h2 { text-align: center; margin-bottom: 40px; }
+    .faq-item { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid #e8e6e1; }
+    .faq-item strong { color: var(--navy); display: block; margin-bottom: 8px; }
+    .faq-item p { color: var(--text-light); font-size: 14px; }
+
+    .footer-cta {
+      background: linear-gradient(135deg, var(--navy), #0f1621);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    footer {
+      background: var(--navy);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .section { padding: 40px 24px; }
+      .hero h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="brand-badge">Paulo Ramos · Ramos Corporate</div>
+    <h1>Invista em Imóvel em Portugal: Guia Completo para Diáspora Cabo-verdiana</h1>
+    <p>Estratégia de investimento seguro: Financiamento, regiões, rentabilidade & gestão remota — tudo explicado.</p>
+    <a href="#form-section" class="cta-primary">Quero o Guia Gratuito</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>De Cabo Verde para Portugal: Oportunidade de Investimento</h2>
+  <p>Vivi 25 anos na Holanda. Compreendo a mentalidade de quem deixa a terra natal à procura de oportunidade, e depois quer investir para criar segurança financeira a longo prazo.</p>
+  <p>Portugal oferece excelentes oportunidades para a Diáspora Cabo-verdiana: mercado estável, retornos reais, e possibilidade de voltar a casa com património. É isso que este guia explica.</p>
+</section>
+
+<section class="section">
+  <h2>O Que Encontra No Guia</h2>
+  <ul class="benefits-list">
+    <li>Porquê investir em Portugal (retorno 9-14% vs alternativas)</li>
+    <li>Estratégias: Compra para arrendamento, Airbnb, Fix & Flip</li>
+    <li>Regiões recomendadas e rentabilidade de cada uma</li>
+    <li>Financiamento bancário para estrangeiros (como funciona, quanto consegue)</li>
+    <li>Impostos e estrutura fiscal otimizada</li>
+    <li>Gestão da propriedade à distância (agências, plataformas)</li>
+    <li>Checklist completa antes de investir</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Porquê Confiar Neste Guia?</h2>
+  <p>Tenho raízes Cabo-verdianas e compreendo os objetivos de quem quer criar herança para a família. Trabalho há 25 anos internacionalmente — conheço como funcionam sistemas diferentes.</p>
+  <p>Como consultor imobiliário em Portugal, já orientei dezenas de Cabo-verdianos em investimentos seguros e rentáveis. Este guia é o resumo dessa experiência — informação real, não promessas.</p>
+</section>
+
+<section class="form-section" id="form-section">
+  <h2>Receba o Guia Agora</h2>
+  <p>Preencha abaixo e receba o guia completo no seu WhatsApp — sem spam, sem compromisso.</p>
+  
+  <form id="lead-form">
+    <input type="text" name="nome" placeholder="O seu nome completo" required>
+    <input type="tel" name="telefone" placeholder="Seu telemóvel (+238 ou +351)" required>
+    <button type="submit" class="form-submit">📥 Enviar-me o Guia</button>
+  </form>
+</section>
+
+<section class="section">
+  <h2>O Que Acontece A Seguir?</h2>
+  <ul class="benefits-list">
+    <li>Passo 1: Preenche o formulário acima</li>
+    <li>Passo 2: Recebe o guia no WhatsApp em minutos (link da página interativa)</li>
+    <li>Passo 3: Sem compromisso — o guia é grátis. Se depois quiser conversar, ficamos à disposição</li>
+  </ul>
+</section>
+
+<section class="faq-section">
+  <h2>Perguntas Frequentes</h2>
+  
+  <div class="faq-item">
+    <strong>O guia é 100% grátis?</strong>
+    <p>Sim. Sem cartão de crédito, sem pegadinhas. Oferecemos porque acreditamos que informação clara cria melhores investidores.</p>
+  </div>
+
+  <div class="faq-item">
+    <strong>Vou receber spam?</strong>
+    <p>Não. O seu contacto só será usado para oportunidades relevantes, se demonstrar interesse. Pode remover-se a qualquer altura.</p>
+  </div>
+
+  <div class="faq-item">
+    <strong>Quanto tempo demora a receber o guia?</strong>
+    <p>Segundos. Logo após preencher o formulário, recebe um link no WhatsApp.</p>
+  </div>
+
+  <div class="faq-item">
+    <strong>Posso investir como não-residente?</strong>
+    <p>Sim. Cidadãos não-UE podem comprar e financiar até 70-80% do valor. O guia explica todo o processo.</p>
+  </div>
+</section>
+
+<section class="footer-cta">
+  <h2>Pronto para Investir?</h2>
+  <p>Preencha o formulário acima e receba o guia completo — de graça, sem compromisso.</p>
+  <a href="#form-section" class="cta-primary" style="display: inline-block;">Voltar ao Formulário</a>
+</section>
+
+<footer>
+  <p>© 2026 Paulo Ramos · Ramos Corporate · KW Alfa Carcavelos</p>
+  <p>Consultor Imobiliário | AMI 16799</p>
+</footer>
+
+<script>
+document.getElementById('lead-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const nome = this.nome.value.trim();
+  const telefone = this.telefone.value.trim();
+  const numeroWhatsApp = '351937275747'; // Paulo's WhatsApp
+  const mensagem = `Olá Paulo, sou ${nome} (${telefone}). Recebi e li o guia de investimento para Diáspora Cabo-verdiana. Quero conversar sobre oportunidades em Portugal.`;
+  const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+  window.open(url, '_blank');
+  this.reset();
+});
+</script>
+
+</body>
+</html>

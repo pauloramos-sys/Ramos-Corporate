@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where to Live in Portugal as a Digital Nomad? Free Guide — Ramos Corporate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --navy: #1b2a3b;
+      --gold: #b8962e;
+      --off-white: #f4f1ec;
+      --text-dark: #2c3e50;
+      --text-light: #7f8c8d;
+      --font-title: 'Montserrat', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text-dark); background: var(--off-white); line-height: 1.6; }
+
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, #0f1621 100%);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -10%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(184, 150, 46, 0.1) 0%, transparent 70%);
+      z-index: 0;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; }
+    .brand-badge { display: inline-block; background: rgba(184, 150, 46, 0.15); color: var(--gold); padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; }
+    .hero h1 { font-family: var(--font-title); font-size: clamp(36px, 6vw, 60px); font-weight: 700; margin-bottom: 20px; }
+    .hero p { font-size: 18px; margin-bottom: 30px; color: rgba(255, 255, 255, 0.9); }
+
+    .cta-primary {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 16px 50px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-family: var(--font-title);
+      cursor: pointer;
+      border: none;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    .cta-primary:hover { transform: translateY(-3px); box-shadow: 0 12px 36px rgba(184, 150, 46, 0.3); }
+
+    .section {
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 60px 40px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .section:nth-child(even) { background: var(--off-white); }
+    .section h2 { font-family: var(--font-title); font-size: 32px; font-weight: 700; color: var(--navy); margin-bottom: 24px; }
+    .section p { color: var(--text-light); margin-bottom: 16px; font-size: 16px; line-height: 1.8; }
+
+    .benefits-list {
+      list-style: none;
+      margin-top: 24px;
+    }
+    .benefits-list li {
+      padding: 16px 0;
+      padding-left: 40px;
+      position: relative;
+      border-bottom: 1px solid #e8e6e1;
+      color: var(--text-dark);
+    }
+    .benefits-list li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .form-section {
+      max-width: 700px;
+      margin: 80px auto;
+      padding: 60px 40px;
+      background: linear-gradient(135deg, var(--navy) 0%, rgba(15, 22, 33, 0.9) 100%);
+      border-radius: 12px;
+      color: white;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    }
+    .form-section h2 { color: white; text-align: center; margin-bottom: 30px; }
+    .form-section p { text-align: center; color: rgba(255, 255, 255, 0.9); margin-bottom: 30px; }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    input { padding: 14px 16px; border: 2px solid rgba(184, 150, 46, 0.2); border-radius: 6px; font-family: var(--font-body); font-size: 16px; background: rgba(255, 255, 255, 0.1); color: white; }
+    input::placeholder { color: rgba(255, 255, 255, 0.6); }
+    input:focus { outline: none; border-color: var(--gold); background: rgba(255, 255, 255, 0.15); }
+
+    .form-submit {
+      background: var(--gold);
+      color: var(--navy);
+      padding: 16px;
+      border: none;
+      border-radius: 6px;
+      font-weight: 700;
+      font-family: var(--font-title);
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      margin-top: 16px;
+    }
+    .form-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(184, 150, 46, 0.3); }
+
+    .faq-section {
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 60px 40px;
+      background: white;
+      border-radius: 8px;
+    }
+    .faq-section h2 { text-align: center; margin-bottom: 40px; }
+    .faq-item { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid #e8e6e1; }
+    .faq-item strong { color: var(--navy); display: block; margin-bottom: 8px; }
+    .faq-item p { color: var(--text-light); font-size: 14px; }
+
+    .footer-cta {
+      background: linear-gradient(135deg, var(--navy), #0f1621);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    footer {
+      background: var(--navy);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .section { padding: 40px 24px; margin: 60px auto; }
+      .hero h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="brand-badge">Paulo Ramos · Ramos Corporate</div>
+    <h1>Where Should You Live in Portugal as a Digital Nomad?</h1>
+    <p>Complete guide: Best cities, cost of living, internet quality, communities & visa options — everything you need to know.</p>
+    <a href="#form-section" class="cta-primary">Get the Free Guide</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>From Amsterdam to Lisbon: My Journey</h2>
+  <p>I spent 25 years in the Netherlands, but I've recently moved to Portugal. And I've helped dozens of digital nomads find their ideal home base here.</p>
+  <p>Portugal has become the #1 destination for digital nomads in Europe — and for good reason. Low cost of living, excellent internet, vibrant communities, and amazing weather. But not all cities are equal for remote workers.</p>
+  <p><strong>This guide is based on real experience, not marketing.</strong></p>
+</section>
+
+<section class="section">
+  <h2>What's Inside the Guide</h2>
+  <ul class="benefits-list">
+    <li>Best cities for digital nomads: Lisbon, Porto, Algarve, Cascais (detailed breakdown)</li>
+    <li>Realistic cost of living (accommodation, coworking, food, transport)</li>
+    <li>Internet quality & speed in each location</li>
+    <li>Nomad communities & networking opportunities</li>
+    <li>Visa options: D7, NHR, tourist permit explained</li>
+    <li>Practical checklist: housing, banking, SIM cards, coworking</li>
+  </ul>
+</section>
+
+<section class="form-section" id="form-section">
+  <h2>Get the Complete Guide — Free</h2>
+  <p>Fill in below and receive the guide directly on WhatsApp — no spam, no commitment.</p>
+  
+  <form id="lead-form">
+    <input type="text" name="nome" placeholder="Your name" required>
+    <input type="tel" name="telefone" placeholder="Your phone (+31 or +351)" required>
+    <button type="submit" class="form-submit">📥 Send Me the Guide</button>
+  </form>
+</section>
+
+<section class="section">
+  <h2>What Happens Next?</h2>
+  <ul class="benefits-list">
+    <li>Step 1: Fill in the form above</li>
+    <li>Step 2: Receive the guide on WhatsApp in seconds (interactive page link)</li>
+    <li>Step 3: No commitment — the guide is free. If you want to chat later, we're here</li>
+  </ul>
+</section>
+
+<section class="faq-section">
+  <h2>FAQ</h2>
+  
+  <div class="faq-item">
+    <strong>Is it really free?</strong>
+    <p>100% free. No credit card, no hidden costs. We believe good information helps you make better decisions.</p>
+  </div>
+
+  <div class="faq-item">
+    <strong>Will I get spam?</strong>
+    <p>No. We only use your contact for relevant opportunities if you express interest. You can always opt out.</p>
+  </div>
+
+  <div class="faq-item">
+    <strong>How long does it take to receive it?</strong>
+    <p>Seconds. As soon as you submit the form, you'll receive a link to the guide on WhatsApp.</p>
+  </div>
+</section>
+
+<section class="footer-cta">
+  <h2>Ready to Make Your Move?</h2>
+  <p>Fill in the form above and get the complete guide — free, no commitment.</p>
+  <a href="#form-section" class="cta-primary" style="display: inline-block;">Back to Form</a>
+</section>
+
+<footer>
+  <p>© 2026 Paulo Ramos · Ramos Corporate · KW Alfa Carcavelos</p>
+</footer>
+
+<script>
+document.getElementById('lead-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const nome = this.nome.value.trim();
+  const telefone = this.telefone.value.trim();
+  const numeroWhatsApp = '31655956117'; // Netherlands WhatsApp
+  const mensagem = `Hi Paulo, I'm ${nome} (${telefone}). I received and read the digital nomad guide. I'd like to discuss living and working in Portugal.`;
+  const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+  window.open(url, '_blank');
+  this.reset();
+});
+</script>
+
+</body>
+</html>
