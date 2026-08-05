@@ -71,7 +71,16 @@ input:focus { outline: none; border-color: var(--gold); background: rgba(255, 25
 footer { background: var(--navy); color: white; padding: 30px 20px; text-align: center; font-size: 12px; }
 @media (max-width: 768px) { .hero { padding: 60px 20px; } .hero h1 { font-size: 30px; } .section { padding: 40px 24px; margin: 40px auto; } .form-section { padding: 40px 24px; } }
 @media (max-width: 480px) { .hero { padding: 40px 16px; } .hero h1 { font-size: 24px; } .hero p { font-size: 16px; } .section { padding: 24px 16px; margin: 30px auto; } .section h2 { font-size: 22px; } }
-</style>
+
+    .breadcrumb {
+      background: rgba(255,255,255,0.06);
+      padding: 12px 20px;
+      text-align: center;
+      font-size: 13px;
+    }
+    .breadcrumb a { color: var(--gold); text-decoration: none; font-weight: 600; }
+    .breadcrumb a:hover { text-decoration: underline; }
+  </style>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -90,6 +99,7 @@ footer { background: var(--navy); color: white; padding: 30px 20px; text-align: 
   </script>
 </head>
 <body>
+<div class="breadcrumb"><a href="/">← Ramos Corporate</a> · Almada</div>
 
 <section class="hero">
   <div class="hero-content">
