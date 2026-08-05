@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Como funciona o financiamento bancário para estrangeiros e não-residentes que querem comprar casa em Portugal. Guia direto de Paulo Ramos.">
+  <title>Financiamento Bancário para Estrangeiros Comprarem Casa em Portugal | Ramos Corporate</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK0BCPG5P6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VK0BCPG5P6');
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #1b2a3b;
+      --gold: #b8962e;
+      --off-white: #f4f1ec;
+      --text-dark: #2c3e50;
+      --text-light: #7f8c8d;
+      --font-title: 'Montserrat', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text-dark); background: var(--off-white); line-height: 1.6; }
+
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, #0f1621 100%);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -10%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(184, 150, 46, 0.1) 0%, transparent 70%);
+      z-index: 0;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; }
+    .brand-badge { display: inline-block; background: rgba(184, 150, 46, 0.15); color: var(--gold); padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; }
+    .hero h1 { font-family: var(--font-title); font-size: clamp(32px, 5.5vw, 52px); font-weight: 700; margin-bottom: 20px; }
+    .hero p { font-size: 18px; margin-bottom: 30px; color: rgba(255, 255, 255, 0.9); }
+
+    .cta-primary {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy);
+      padding: 16px 50px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-family: var(--font-title);
+      cursor: pointer;
+      border: none;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    .cta-primary:hover { transform: translateY(-3px); box-shadow: 0 12px 36px rgba(184, 150, 46, 0.3); }
+
+    .section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 50px 40px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .section:nth-child(even) { background: var(--off-white); }
+    .section h2 { font-family: var(--font-title); font-size: 28px; font-weight: 700; color: var(--navy); margin-bottom: 20px; }
+    .section p { color: var(--text-light); margin-bottom: 16px; font-size: 16px; line-height: 1.8; }
+
+    .benefits-list { list-style: none; margin-top: 20px; }
+    .benefits-list li {
+      padding: 14px 0; padding-left: 36px; position: relative;
+      border-bottom: 1px solid #e8e6e1; color: var(--text-dark); font-size: 15px;
+    }
+    .benefits-list li::before {
+      content: '→'; position: absolute; left: 0; color: var(--gold); font-weight: bold; font-size: 16px;
+    }
+
+    .note-box {
+      background: rgba(184, 150, 46, 0.08);
+      border-left: 4px solid var(--gold);
+      padding: 20px 24px;
+      border-radius: 4px;
+      margin: 20px 0;
+      font-size: 14px;
+      color: var(--text-dark);
+    }
+
+    .form-section {
+      max-width: 700px; margin: 60px auto; padding: 50px 40px;
+      background: linear-gradient(135deg, var(--navy) 0%, rgba(15, 22, 33, 0.9) 100%);
+      border-radius: 12px; color: white; box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    }
+    .form-section h2 { color: white; text-align: center; margin-bottom: 20px; font-family: var(--font-title); font-size: 26px; }
+    .form-section p { text-align: center; color: rgba(255, 255, 255, 0.9); margin-bottom: 30px; }
+    form { display: flex; flex-direction: column; gap: 16px; }
+    input { padding: 14px 16px; border: 2px solid rgba(184, 150, 46, 0.2); border-radius: 6px; font-family: var(--font-body); font-size: 16px; background: rgba(255, 255, 255, 0.1); color: white; }
+    input::placeholder { color: rgba(255, 255, 255, 0.6); }
+    input:focus { outline: none; border-color: var(--gold); background: rgba(255, 255, 255, 0.15); }
+    .form-submit {
+      background: var(--gold); color: var(--navy); padding: 16px; border: none; border-radius: 6px;
+      font-weight: 700; font-family: var(--font-title); cursor: pointer; font-size: 16px;
+      transition: all 0.3s ease; margin-top: 16px;
+    }
+    .form-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(184, 150, 46, 0.3); }
+
+    footer { background: var(--navy); color: white; padding: 30px 20px; text-align: center; font-size: 12px; }
+
+    @media (max-width: 768px) {
+      .section { padding: 32px 22px; margin: 40px auto; }
+      .hero h1 { font-size: 28px; }
+    }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="brand-badge">Paulo Ramos · Ramos Corporate</div>
+    <h1>Financiamento Bancário para Estrangeiros Comprarem Casa em Portugal</h1>
+    <p>Quanto pode financiar, que documentos precisa, e porque deve tratar disto antes de procurar imóvel.</p>
+    <a href="#form-section" class="cta-primary">Falar Com Paulo</a>
+  </div>
+</section>
+
+<section class="section">
+<h2>Quem Pode Financiar Como Estrangeiro ou Não-Residente</h2>
+<p>Cidadãos estrangeiros e não-residentes podem, em geral, financiar a compra de casa em Portugal através da banca portuguesa. Os bancos costumam financiar entre 60% e 80% do valor do imóvel, dependendo do perfil do comprador, do banco escolhido e se é residente fiscal ou não.</p>
+<p>As condições variam de banco para banco — taxa de juro, prazo, e percentagem financiada não são iguais em todo o lado. Vale sempre a pena comparar mais do que uma proposta antes de decidir.</p>
+<div class="note-box">Nunca avance com uma oferta de compra sem primeiro ter uma pré-aprovação bancária confirmada. Isto protege-o de perder o sinal caso o financiamento não seja aprovado a tempo.</div>
+</section>
+<section class="section">
+<h2>Documentos e Processo, em Traços Gerais</h2>
+<p>De forma geral, os bancos pedem: NIF português, comprovativo de rendimentos, extratos bancários dos últimos meses, e identificação válida. Se residir fora de Portugal, alguns documentos podem precisar de ser traduzidos ou apostilados.</p>
+<p>O processo, desde o pedido até à aprovação final, costuma demorar entre quatro a oito semanas — por isso é importante começar cedo, mesmo antes de encontrar o imóvel certo.</p>
+</section>
+<section class="section">
+<h2>Porquê Falar Comigo Sobre Isto</h2>
+<p>Tenho raízes cabo-verdianas e vivi 25 anos fora de Portugal, na Holanda. Sei o que é organizar uma compra à distância, sem conhecer bem o sistema local.</p>
+<p>Como consultor da KW Alfa Carcavelos, trabalho com parceiros de crédito habitação e posso ajudá-lo a perceber, em concreto, que financiamento faz sentido para a sua situação — antes de procurar imóvel.</p>
+</section>
+
+
+<section class="form-section" id="form-section">
+  <h2>Quer Perceber a Sua Situação?</h2>
+  <p>Deixe o seu contacto e falamos diretamente pelo WhatsApp — sem compromisso.</p>
+  <form id="lead-form">
+    <input type="text" name="nome" placeholder="O seu nome" required>
+    <input type="tel" name="telefone" placeholder="O seu telemóvel" required>
+    <button type="submit" class="form-submit">📲 Falar no WhatsApp</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Paulo Ramos · Ramos Corporate · KW Alfa Carcavelos</p>
+  <p>Consultor Imobiliário | AMI 16799</p>
+</footer>
+
+<script>
+document.getElementById('lead-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const nome = this.nome.value.trim();
+  const telefone = this.telefone.value.trim();
+  const numeroWhatsApp = '351937275747';
+  const mensagem = `Olá Paulo, sou ${nome} (${telefone}). Li o artigo sobre financiamento bancário para estrangeiros e tenho uma pergunta sobre a minha situação.`;
+  const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+  window.open(url, '_blank');
+  this.reset();
+});
+</script>
+
+</body>
+</html>
